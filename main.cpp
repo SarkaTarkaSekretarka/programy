@@ -13,8 +13,10 @@ int main()
     cin >> w;
     if(w > 18){
         cout << "Jestes pedofilem" << endl;
-    } else {
+    } else if (w > 0){
         cout << "Jestes bombelkiem" << endl;
+    } else {
+        cout << "Robot" << endl;
     }
     return 0;
 }
