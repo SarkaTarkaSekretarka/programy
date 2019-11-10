@@ -6,6 +6,8 @@
 
 using namespace std;
 
+int global_variable=0;
+
 int main()
 {
     int w;
